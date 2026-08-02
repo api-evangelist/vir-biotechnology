@@ -1,8 +1,26 @@
 aid: vir-biotechnology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vir-biotechnology.png
 name: Vir Biotechnology
-description: 'Vir Biotechnology is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Vir Biotechnology is a clinical-stage immunology company that engineers
+  antibodies into medicines targeting serious infectious diseases and cancer.
+  Its programs span chronic hepatitis delta, hepatitis B, oncology, and prior
+  work on COVID-19 and Ebola, built on a next-generation antibody platform and
+  the licensed PRO-XTEN protease-releasable masking technology. Surfaced as a
+  portfolio company of GV and added to the API Evangelist network. This is a
+  corporate/investor-facing life-sciences company; enrichment probes found no
+  public developer, API, or partner-integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/vir-biotechnology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Immunology
+- Pharmaceuticals
+- Antibodies
+- Infectious Disease
+- Oncology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vir-biotechnology-domain-security.yml
 - type: Website
   url: http://vir.bio
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
